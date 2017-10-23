@@ -7,19 +7,19 @@ public class ScoreResult {
         this.score = score;
     }
 
-    public int getWrongGuesses() {
+    public int getGroundTouched() {
         return score.getGroundTouched();
     }
 
-    public int getRevealedMines() {
+    public int getGatheredCoins() {
         return score.getGatheredCoins();
     }
 
-    public int getUncoveredFields() {
+    public int getMoves() {
         return score.getMoves();
     }
 
-    public int getNumberOfMines() {
+    public int getStartingNumberOfCoins() {
         return score.getStartingNumberOfCoins();
     }
 
